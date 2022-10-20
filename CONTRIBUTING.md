@@ -21,7 +21,43 @@ We recognize contributions in the following forms:
 
 We use the software Wiki.js for the publication of any documents and pages. Wiki.js ('Current Software', 'Tutorial Pages') supports markdown and HTML pages. To allow easier editing and faster approval of articles, we only support markdown documents. 
 
-TBC
+1. Firstly create a new fork of this repo. 
+
+2. To create a new page, go under the `pages` folder and find the category you would like. If the category does not exist, you may create one. Categories must be ONE WORD. Example "vps" or "dns". 
+Create a new file with the name of the final path for the page and add the `.md` extension at the end of it. 
+Example if we want the path to be `/pages/communications/super-awesome-guide` we will go into the **pages** folder, create the **communications** folder and name the file **super-awesome-guide.md**
+
+Inside this file, copy paste this template and edit as required: 
+```md
+---
+title: 
+description: 
+published: 1
+date: 
+tags: 
+editor: markdown
+dateCreated: 
+---
+
+# Header
+Your content here
+```
+To explain the file, we will need to define the page information. Begin with `---` and enter the following details: 
+- **title**: The title of the page (up to 255 characters, can use spaces and special characters) [displays in SEO/EMBED and top of page]
+- **description**: A short description of the page (up to 255 characters, can use spaces and special characters) [displays in SEO/EMBED and below the title]
+- **published**: Boolean in the form of a number for if we want the page to be available. Please use `1`
+- **date**: ISO datetimestamp for the last edit of the page (example `2022-01-01T00:00:00.000Z`)
+- **tags**: An array of the page tags, split by a comma (example: `tag1, tag2, tag3`)
+- **editor**: The editor engine we want to use for editing this page. Please use `markdown`
+- **dateCreated**: ISO datetimestamp for when the page was created (example `2022-01-01T00:00:00.000Z`)  
+Close the information section with another `---` in a new line. 
+
+Below the info section, you can input your content in markdown format!
+
+3. Create a pull request. Explain in detail the purpose of the document and why it is useful. 
+4. Turn on alerts for the pull request. One of the mainteners will add any comments or approve and merge the PR. 
+
+⚠️ We do not have a public editor available currently. You can read the supported markdown language here: https://docs.requarks.io/editors/markdown
 
 ### Contributing for Improvements or report bug/typos 
 
