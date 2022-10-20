@@ -3,7 +3,7 @@
 ## Terms of Contribution 
 
 We define any content uploaded ('Contributions') in this repo, which is then uploaded to Something.Host ('Us', 'Our', 'Site', 'Tutorials Page') by you, the contributors ('You', 'Contributors'). All Your Contributions are subject to our [Terms of Service](https://something.host/en/legal/terms-of-service) and the following Guidelines: 
-1. All Contributions must be written primirally in the English AND Greek language. Any other languages must be a proper translation of the English version. Refrain from using automated services like Google Translate or Microsoft Translator as those typically provide incorrect grammar or vocabulary. 
+1. All Contributions must be written primirally in the English (en) AND Greek (el) language. Any other languages must be a proper translation of the English version. Refrain from using automated services like Google Translate or Microsoft Translator as those typically provide incorrect grammar or vocabulary. 
 2. All Contributions must not contain any foul language, swearing or unprofessional language. 
 3. Contributions that link 3rd party services may not contain any affiliate or other tracking information other than "Something.Host" or "SomethingHost" and must contain proper footnotes if otherwise. 
 4. Contributions that have any asset media, must be uploaded in this GitHub repo and not use any 3rd party services like Imgur.
@@ -23,9 +23,9 @@ We use the software Wiki.js for the publication of any documents and pages. Wiki
 
 1. Firstly create a new fork of this repo. 
 
-2. To create a new page, go under the `pages` folder and find the category you would like. If the category does not exist, you may create one. Categories must be ONE WORD. Example "vps" or "dns". 
+2. To create a new page, go under the `pages` folder, choose the language and then find the category you would like. If the category does not exist, you may create one. Categories must be ONE WORD. Example "vps" or "dns". 
 Create a new file with the name of the final path for the page and add the `.md` extension at the end of it. 
-Example if we want the path to be `/pages/communications/super-awesome-guide` we will go into the **pages** folder, create the **communications** folder and name the file **super-awesome-guide.md**
+Example if we want the path to be `/pages/en/communications/super-awesome-guide` we will go into the **pages** folder, create the **communications** folder and name the file **super-awesome-guide.md**
 
 Inside this file, copy paste this template and edit as required: 
 ```md
@@ -58,6 +58,11 @@ Below the info section, you can input your content in markdown format!
 4. Turn on alerts for the pull request. One of the mainteners will add any comments or approve and merge the PR. 
 
 ⚠️ We do not have a public editor available currently. You can read the supported markdown language here: https://docs.requarks.io/editors/markdown
+
+#### Assets
+
+If you have any assets such as images, videos or other media that need to be displayed in a page, please insert it in the `/assets/` folder with the following name scheme: 
+`<path/to/page/ASSET_<LANGUAGE>_<INC_NUMBER>.<suffix>` example: **/assets/pages/en/communications/super-awesome-guide/ASSET_01.png** or **/assets/pages/en/communications/super-awesome-guide/ASSET_45.png**
 
 ### Contributing for Improvements or report bug/typos 
 
