@@ -64,6 +64,8 @@ Below the info section, you can input your content in markdown format!
 If you have any assets such as images, videos or other media that need to be displayed in a page, please insert it in the `/assets/` folder with the following name scheme: 
 `<path/to/page/ASSET_<LANGUAGE>_<INC_NUMBER>.<suffix>` example: **/assets/pages/en/communications/super-awesome-guide/ASSET_01.png** or **/assets/pages/en/communications/super-awesome-guide/ASSET_45.png**
 
+⚠️ All pages and assets must follow the naming restrictions as specified here: https://docs.requarks.io/guide/assets#naming-restrictions
+
 ### Contributing for Improvements or report bug/typos 
 
 Create an issue and select "Improvements or Report Bug/Typo", follow the instructions in the template. 
